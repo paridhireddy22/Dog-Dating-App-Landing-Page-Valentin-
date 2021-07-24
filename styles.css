@@ -1,0 +1,155 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-bold";
+  font-weight:900;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.big-heading,.cta-heading{
+  font-family:"Montserrat";
+  font-weight: 900;
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colored-section{
+background-color: #ff4c68;
+color: white;
+}
+
+.white-section{
+background-color: white;
+}
+
+.navbar{
+  padding:0;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+  font-family:"Montserrat-light";
+  font-weight: 100;
+}
+
+.btn-download{
+  margin: 5% 3% 5% 0;
+}
+
+#title{
+  text-align: left;
+}
+
+#title .container-fluid{  /* If we do not combine selectors, then it will add to the padding instead of overwriting that of .container-fluid*/
+  padding:3% 15% 7%;
+}
+
+.title-img{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#features{
+  padding:7% 15%;
+  background-color: white;
+  position: relative;         /*to make it overlap the title picture*/
+  z-index: 1;
+}
+
+.feature-heading{
+  font-size:1.5rem;
+}
+
+.feature-box{
+  padding:0 5%;
+}
+
+.fontawesome{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fontawesome:hover{
+  color:#ff4c68;
+}
+
+#testimonials{
+  background-color: #ef8172;      /* id has higher priority than class*/
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding:100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col{
+  padding:3% 2%;
+}
+
+.footer-icon{
+  margin: 4px 4px;
+}
+
+@media (max-width:1028px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+}
